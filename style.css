@@ -1,0 +1,33 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .manuel-link {
+    color: black;
+    border: solid 1px black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+  
+  .manuel-link:hover {
+    color: white;
+    background-color: black;
+  }
+  
+  .manuel-link-wrapper {
+    min-height: 500px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
